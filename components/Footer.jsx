@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-[#0E7506] bg-opacity-10">
       <div
         className="h-auto p-10  grid grid-cols-1 
-            md:grid-cols-[300px_100px_1fr_2fr] md:gap-5"
+            md:grid-cols-[250px_100px_200px_300px] md:gap-8"
       >
         {/* About */}
         <div className="flex flex-col space-y-6">
@@ -59,7 +59,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <h1 className="pb-4 ">Contact Us</h1>
+          <h1 className="pb-4 ">Connect</h1>
           <ul className="space-y-4">
             <li className="">
               <a href="" className="space-x-3 flex items-center flex-row">
@@ -70,23 +70,40 @@ const Footer = () => {
             <li>
               <a className="space-x-3 flex items-center flex-row">
                 <HiLocationMarker className="h-4 w-4 text-gray-400" />
-                <p>1648 Taylor Rd. Suite258 Port Orange, FL 32128</p>
+                <p>1648 Taylor Rd. </p>
               </a>
             </li>
             <li>
               <a
                 href="mailto:mail@gmail.com"
-                className="space-x-3 flex items-center flex-row"
+                className="space-x-3 flex items-center flex-row w-24"
               >
-                <HiMail className="text-gray-400" />
-                <p>development@realdevcompan.com</p>
+                <HiMail className="text-gray-400 " />
+                <p>realdevcompany</p>
               </a>
             </li>
           </ul>
         </div>
-        <div>Subscribe</div>
+        <div className="space-y-4">
+          <h1>Subscribe</h1>
+          <p>
+            Subscribe to our newsletter and get the latest updates as they
+            happen.
+          </p>
+          <div className="flex space-x-3">
+            <input
+              type="text"
+              placeholder="Enter email address"
+              className="border-[#0E7506] px-1 border-2 rounded-lg bg-transparent
+                focus:border-transparent focus:outline-none focus:shadow-none"
+            />
+            <button className="bg-[#0E7506] p-2 text-white rounded-md">
+              Subscribe
+            </button>
+          </div>
+        </div>
       </div>
-      <div className="flex items-center justify-center space-x-2">
+      <div className="flex items-center justify-center space-x-2 p-4">
         <p className="">&copy;2022</p>
         <p>GRDC</p>{" "}
       </div>
