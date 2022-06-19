@@ -23,7 +23,9 @@ const Home: NextPage = () => {
         <Hero />
         <Services />
         <Content />
-        <Blog />
+        <div className="overflow-scroll">
+          <Blog />
+        </div>
         <CallToAction />
       </main>
       <Footer />
