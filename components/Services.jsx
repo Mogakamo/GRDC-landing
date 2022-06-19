@@ -18,7 +18,7 @@ const service = [
 
 const Services = () => {
   return (
-    <div className=" relative text-center p-10 rounded-bl-3xl rounded-br-3xl space-y-10">
+    <div className=" relative text-center p-10 rounded-br-sm rounded-bl-sm space-y-10">
       <h1 className="font-bold text-2xl ">
         Discover the Power of the GRDC Platform
       </h1>
