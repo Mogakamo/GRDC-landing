@@ -3,6 +3,7 @@ import Head from "next/head";
 import {
   Blog,
   CallToAction,
+  Content,
   Footer,
   Hero,
   NavBar,
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <main className="relative">
         <Hero />
         <Services />
+        <Content />
         <Blog />
         <CallToAction />
       </main>
