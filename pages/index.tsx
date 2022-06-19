@@ -11,7 +11,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="relative">
       <Head>
         <title>GRDC - Home</title>
         <link rel="icon" href="/favicon.ico" />
