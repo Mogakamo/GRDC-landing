@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 z-50">
-      <div className="flex items-center justify-center space-x-48 h-16 mx-auto shadow-lg">
+    <div className="">
+      <div className="sticky top-0 z-50 flex items-center justify-center space-x-48 h-16 mx-auto shadow-lg">
         <div className="relative h-12 w-12">
           <Image src="/logo.png" layout="fill" />
         </div>
