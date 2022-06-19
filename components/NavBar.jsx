@@ -11,8 +11,8 @@ const NavBar = () => {
         </div>
 
         <ul
-          className="flex justify-center items-center
-            space-x-10"
+          className="md:flex justify-center items-center
+            space-x-10 hidden "
         >
           <li className="opacity-50 cursor-pointer hover:opacity-100">
             <Link href="/">Home</Link>
@@ -28,7 +28,7 @@ const NavBar = () => {
           </li>
         </ul>
 
-        <button className="bg-green-900 text-white p-2 rounded-lg">
+        <button className="hidden sm:block md:block bg-green-900 text-white p-2 rounded-lg">
           <Link href="/register">Get Started</Link> 
         </button>
       </div>
