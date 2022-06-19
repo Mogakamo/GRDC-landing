@@ -28,7 +28,7 @@ const NavBar = () => {
           </li>
         </ul>
 
-        <button className="hidden sm:block md:block bg-green-900 text-white p-2 rounded-lg">
+        <button className="hidden sm:block md:block bg-[#0E7506] text-white p-2 rounded-lg">
           <Link href="/register">Get Started</Link>
         </button>
       </div>

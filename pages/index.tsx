@@ -11,17 +11,19 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div className="relative">
+    <div className="">
       <Head>
         <title>GRDC - Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <NavBar />
-      <Hero />
-      <Services />
-      <Blog />
-      <CallToAction />
+      <main className="relative">
+        <Hero />
+        <Services />
+        <Blog />
+        <CallToAction />
+      </main>
       <Footer />
     </div>
   );
