@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const NavBar = () => {
   return (
@@ -28,8 +29,14 @@ const NavBar = () => {
           </li>
         </ul>
 
-        <button className="hidden sm:block md:block bg-[#0E7506] text-white p-2 rounded-lg">
-          <Link href="/register">Get Started</Link>
+        <button
+          className="sm:block md:block bg-[#0E7506] text-white 
+              p-2 rounded-lg flex"
+        >
+          <div className="flex items-center space-x-1 px-2">
+            <Link href="/register">Get Started</Link>
+            <AiOutlineArrowRight />
+          </div>{" "}
         </button>
       </div>
     </div>
