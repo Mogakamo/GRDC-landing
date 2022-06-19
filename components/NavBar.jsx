@@ -31,7 +31,8 @@ const NavBar = () => {
 
         <button
           className="sm:block md:block bg-[#0E7506] text-white 
-              p-2 rounded-lg flex"
+              p-2 rounded-lg flex hover:bg-transparent hover:text-black 
+              hover:border-[#0E7506] hover:border-2"
         >
           <div className="flex items-center space-x-1 px-2">
             <Link href="/register">Get Started</Link>

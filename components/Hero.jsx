@@ -3,6 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Image from "next/image";
+import Link from "next/link"
 
 const Hero = () => {
   return (
@@ -26,10 +27,12 @@ const Hero = () => {
           </p>
           <button
             className="border-[#0E7506] p-2 border-2 rounded-full 
-                      text-white flex items-center px-4"
+                      text-white flex items-center px-4 hover:bg-[#0E7506]"
           >
-            Our Services
+            <div className="flex items-center space-x-3 px-2">
+            <Link href="/">Our Services</Link>
             <AiOutlineArrowRight />
+            </div>
           </button>
         </div>
         <div className="p-10">
