@@ -3,30 +3,26 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <div className="relative h-16 shadow-lg">
-      <div className="flex mx-auto items-center space-x-20">
-        <div className="w-16">
-          <Image
-            src={"/logo.svg"}
-            className="h-12 w-12"
-            layout="fill"
-            objectFit="contain"
-          />
-        </div>
-
-        <ul className="flex flex-row space-x-6 justify-center">
-          <li>Home</li>
-          <li>Marketplace</li>
-          <li>Defi</li>
-          <li>Sell</li>
-        </ul>
-
-        <div>
-          <button className="bg-[#0E7506]" text-white>
-            Get started
-          </button>
-        </div>
+    <div className="flex items-center justify-center space-x-48 h-16 mx-auto shadow-lg">
+      <div className="relative h-12 w-12">
+        <Image src="/logo.png" layout="fill" />
       </div>
+
+      <ul
+        className="flex justify-center items-center
+            space-x-10"
+      >
+        <li className="opacity-50 cursor-pointer hover:opacity-100">Home</li>
+        <li className="opacity-50 cursor-pointer hover:opacity-100">
+          Marketplace
+        </li>
+        <li className="opacity-50 cursor-pointer hover:opacity-100">Defi</li>
+        <li className="opacity-50 cursor-pointer hover:opacity-100">
+          Sell Tokens
+        </li>
+      </ul>
+
+      <button className="bg-green-900 text-white p-2 rounded-xl">Get Started -></button>
     </div>
   );
 };
