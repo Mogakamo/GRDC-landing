@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -13,18 +14,22 @@ const NavBar = () => {
           className="flex justify-center items-center
             space-x-10"
         >
-          <li className="opacity-50 cursor-pointer hover:opacity-100">Home</li>
           <li className="opacity-50 cursor-pointer hover:opacity-100">
-            Marketplace
+            <Link href="/">Home</Link>
           </li>
-          <li className="opacity-50 cursor-pointer hover:opacity-100">Defi</li>
           <li className="opacity-50 cursor-pointer hover:opacity-100">
-            Sell Tokens
+            <Link href="/">Marketplace</Link>
+          </li>
+          <li className="opacity-50 cursor-pointer hover:opacity-100">
+            <Link href="/">Defi</Link>
+          </li>
+          <li className="opacity-50 cursor-pointer hover:opacity-100">
+            <Link href="/">Sell Tokens</Link>
           </li>
         </ul>
 
-        <button className="bg-green-900 text-white p-2 rounded-xl">
-          Get Started ->
+        <button className="bg-green-900 text-white p-2 rounded-lg">
+          <Link href="/register">Get Started</Link> 
         </button>
       </div>
     </div>
