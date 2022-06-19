@@ -2,12 +2,12 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import {
   Blog,
-  CallToAction,
   Content,
   Footer,
   Hero,
   NavBar,
   Services,
+  Team,
 } from "../components";
 
 const Home: NextPage = () => {
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <div className="overflow-scroll">
           <Blog />
         </div>
-        <CallToAction />
+        <Team />
       </main>
       <Footer />
     </div>
