@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogCard = () => {
   return (
-    <div>BlogCard</div>
+    <div className='w-96 h-96 border-transparent shadow-lg'>BlogCard</div>
   )
 }
 
