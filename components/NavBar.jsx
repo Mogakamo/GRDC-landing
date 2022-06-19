@@ -4,7 +4,6 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    
     <div className="sticky top-0 z-50">
       <div className="flex items-center justify-center space-x-48 h-16 mx-auto shadow-lg">
         <div className="relative h-12 w-12">
@@ -30,7 +29,7 @@ const NavBar = () => {
         </ul>
 
         <button className="hidden sm:block md:block bg-green-900 text-white p-2 rounded-lg">
-          <Link href="/register">Get Started</Link> 
+          <Link href="/register">Get Started</Link>
         </button>
       </div>
     </div>
