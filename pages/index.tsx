@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <Hero />
         <Services />
         <Content />
-        <div className="overflow-scroll">
+        <div className="overflow-scroll scrollbar-hide">
           <Blog />
         </div>
         <Team />

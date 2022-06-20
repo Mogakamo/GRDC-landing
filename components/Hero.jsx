@@ -35,14 +35,14 @@ const Hero = () => {
             </div>
           </button>
         </div>
-        <div className="p-10">
-          <div className="h-48 -z-10 relative">
-            <Image src="/hero.svg" layout="fill" />
-            <div className="pt-10">
-              <div className="border-[#0E7506] bg-white rounded-3xl z-50 h-48 w-96">
-                Hello
-              </div>
-            </div>
+        <div className="pt-10">
+          <div className="relative border-[#0E7506] bg-white rounded-3xl z-50 h-48 w-56">
+            <Image
+              src="/hero-1.svg"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-xl "
+            />
           </div>
         </div>
       </div>
@@ -67,12 +67,19 @@ const Hero = () => {
             </div>
           </button>
         </div>
-        <div className="p-10">
-          <div className="h-48 -z-10 relative">
-            <Image src="/hero.svg" layout="fill" />
+        <div className="p-10 ">
+          <div className="overflow-visible h-48 ml- relative">
+            <div>
+              <Image src="/hero.svg" layout="fill" className="" />
+            </div>
             <div className="pt-10">
-              <div className="border-[#0E7506] bg-white rounded-3xl z-50 h-48 w-96">
-                Hello
+              <div className="relative border-[#0E7506] bg-white rounded-3xl z-50 h-48 w-56">
+                <Image
+                  src="/hero-1.svg"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-xl "
+                />
               </div>
             </div>
           </div>
@@ -80,9 +87,7 @@ const Hero = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 p-10 h-[90vh]">
         <div className="flex flex-col items-start justify-center space-y-10">
-          <h1 className="text-[#0E7506] font-bold text-2xl">
-            GRDC the future
-          </h1>
+          <h1 className="text-[#0E7506] font-bold text-2xl">GRDC the future</h1>
           <p className="text-white text-start">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla Lorem ipsum
@@ -99,14 +104,14 @@ const Hero = () => {
             </div>
           </button>
         </div>
-        <div className="p-10">
-          <div className="h-48 -z-10 relative">
-            <Image src="/hero.svg" layout="fill" />
-            <div className="pt-10">
-              <div className="border-[#0E7506] bg-white rounded-3xl z-50 h-48 w-96">
-                Hello
-              </div>
-            </div>
+        <div className="pt-10">
+          <div className="relative border-[#0E7506] bg-white rounded-3xl z-50 h-48 w-56">
+            <Image
+              src="/hero-1.svg"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-xl "
+            />
           </div>
         </div>
       </div>
