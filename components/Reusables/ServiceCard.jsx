@@ -5,7 +5,7 @@ import Image from "next/image";
 const ServiceCard = ({ header, text }) => {
   return (
     <div
-      className="relative h-96 w-96 border-2 border-transparent shadow-lg 
+      className="relative h-96 md:w-96 w-72 border-2 border-transparent shadow-lg 
                 bg-gray-200 rounded-md cursor-pointer transition duration-300 transform ease-out
                     hover:scale-105 flex flex-col space-y-0 items-center" 
     >
