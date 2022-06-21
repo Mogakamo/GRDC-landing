@@ -4,21 +4,25 @@ import React from "react";
 const Team = () => {
   return (
     <div className="h-auto flex items-center p-10 flex-col">
-      <h1>Our Team</h1>
-      <p>This is our team</p>
+      <h1 className="text-xl font-semibold pb-2">Our Team</h1>
+      <p className="pb-5 text-center">
+        pouvez retrouver le version française de cet article en cliquant ici.
+        For some time now, it has been possible to find articles or tweets
+        indicating that real estate has drop
+      </p>
       <div className="flex items-center">
-      <div className="relative h-96 w-96 ">
-        <Image src="/ceo.svg" layout="fill" objectFit="cover" />
-      </div>
-      <div className="relative h-72 w-48">
-        <Image src="/sales.svg" layout="fill" objectFit="cover" />
-      </div>
-      <div className="relative h-72 w-48">
-        <Image src="/design.svg" layout="fill" objectFit="cover" />
-      </div>
-      <div className="relative h-72 w-48">
-        <Image src="/ux.svg" layout="fill" objectFit="cover" />
-      </div>
+        <div className="relative h-96 w-96 ">
+          <Image src="/ceo.svg" layout="fill" objectFit="cover" />
+        </div>
+        <div className="relative h-72 w-48">
+          <Image src="/sales.svg" layout="fill" objectFit="cover" />
+        </div>
+        <div className="relative h-72 w-48">
+          <Image src="/design.svg" layout="fill" objectFit="cover" />
+        </div>
+        <div className="relative h-72 w-48">
+          <Image src="/ux.svg" layout="fill" objectFit="cover" />
+        </div>
       </div>
     </div>
   );
