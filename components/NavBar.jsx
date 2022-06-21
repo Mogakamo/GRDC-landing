@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 z-50 flex bg-white items-center justify-center space-x-48 h-16 mx-auto shadow-lg">
+    <div className="sticky top-0 z-50 flex bg-white items-center justify-center space-x-48 h-16 shadow-lg">
       <div className="relative h-12 w-12">
         <Image src="/logo.png" layout="fill" />
       </div>
