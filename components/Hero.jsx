@@ -16,10 +16,10 @@ const Hero = () => {
     >
       <div className="flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
         <div className="flex flex-col items-start w-[450px] space-y-10">
-          <h1 className="text-[#0E7506] font-bold text-2xl">
+          <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
-          <p className="text-white text-start">
+          <p className="text-white text-start font-light text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla Lorem ipsum
             dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
@@ -55,10 +55,10 @@ const Hero = () => {
       </div>
       <div className="flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
         <div className="flex flex-col items-start w-[450px] space-y-10">
-          <h1 className="text-[#0E7506] font-bold text-2xl">
+          <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
-          <p className="text-white text-start">
+          <p className="text-white text-start font-light text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla Lorem ipsum
             dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
@@ -94,10 +94,10 @@ const Hero = () => {
       </div>
       <div className="flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
         <div className="flex flex-col items-start w-[450px] space-y-10">
-          <h1 className="text-[#0E7506] font-bold text-2xl">
+          <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
-          <p className="text-white text-start">
+          <p className="text-white text-start font-light text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla Lorem ipsum
             dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit

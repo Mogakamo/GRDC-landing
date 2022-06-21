@@ -5,7 +5,7 @@ const Team = () => {
   return (
     <div className="h-auto flex items-center p-10 flex-col">
       <h1 className="text-xl font-semibold pb-2">Our Team</h1>
-      <p className="pb-5 text-center">
+      <p className="pb-5 text-center font-light text-lg">
         pouvez retrouver le version française de cet article en cliquant ici.
         For some time now, it has been possible to find articles or tweets
         indicating that real estate has drop
