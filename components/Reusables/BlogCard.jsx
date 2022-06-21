@@ -14,7 +14,7 @@ const BlogCard = () => {
         has dropped in the Rust Belt area, where RealT has...
       </p>
       <div className="text-[#0E7506]">
-        <Link href="/" className=" items-start">
+        <Link href="/" className="hover:text-underline underline-offset-1 items-start">
           Read More
         </Link>
       </div>

@@ -12,7 +12,9 @@ const Hero = () => {
       showArrows={false}
       // showIndicators={false}
       showStatus={false}
-      infiniteLoop
+      interval={3000}
+      autoPlay
+      infiniteLoop={true}
     >
       <div className="flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
         <div className="flex flex-col items-start w-[450px] space-y-10">
