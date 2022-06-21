@@ -30,7 +30,7 @@ const Services = ({}) => {
         Finance on the blockchain. The GRDC collateralization platform lets you
         supercharge your tokenized real estate portfolio.
       </p>
-      <div className="grid grid-cols-1 space-y-38 mx-auto md:grid-cols-3">
+      <div className=" space-y-38 mx-auto flex space-x-10">
         {service?.map(({ id, header, text }) => {
           return (
             <>
