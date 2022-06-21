@@ -10,11 +10,11 @@ const Hero = () => {
     <Carousel
       className="h-[90vh] bg-black "
       showArrows={false}
-      // showIndicators={false}
+      showIndicators={true}
       showStatus={false}
-      // interval
-      // autoPlay
-      // infiniteLoop
+      interval={3000}
+      autoPlay={true}
+      infiniteLoop={true}
     >
       <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
         <div className=" md:flex md:flex-col flex-col items-center md:items-start w-[450px] space-y-10">
