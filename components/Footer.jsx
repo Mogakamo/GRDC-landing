@@ -8,11 +8,10 @@ const Footer = () => {
   return (
     <div className="bg-[#0E7506] bg-opacity-10">
       <div
-        className="h-auto p-10  grid grid-cols-1 
-            md:grid-cols-[250px_100px_200px_300px] md:gap-8"
+        className="h-auto p-10 items-center flex flex-row space-x-16"
       >
         {/* About */}
-        <div className="flex flex-col space-y-6">
+        <div className="flex flex-col space-y-6 w-[250px]">
           <div className="h-12 w-12 relative">
             <Image src="/logo.png" layout="fill" objectFit="contain" />
           </div>
@@ -41,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="pt-4">
           <h1 className="pb-4">Navigation</h1>
           <ul className="space-y-2 ">
             <li className="opacity-60 hover:opacity-100 cursor-pointer">
@@ -58,13 +57,13 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="">
+        <div className="w-auto">
           <h1 className="pb-4 ">Connect</h1>
           <ul className="space-y-4">
             <li className="">
               <a href="" className="space-x-3 flex items-center flex-row">
                 <HiPhoneOutgoing className="text-gray-400" />
-                <p>Phone: (877)800-3043</p>
+                <p>(877)800-3043</p>
               </a>
             </li>
             <li>
@@ -84,7 +83,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 w-72">
           <h1>Subscribe</h1>
           <p>
             Subscribe to our newsletter and get the latest updates as they
