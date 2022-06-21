@@ -2,9 +2,9 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className="bg-[#0E7506] h-96 text-center p-12 space-y-16 
+    <div className="bg-[#0E7506] h-96 text-center md:p-12 space-y-16 
           flex flex-col items-center justify-center">
-      <div className="mx-20 flex items-center flex-col space-y-10">
+      <div className="md:mx-20 flex items-center flex-col space-y-10">
       <h1 className="font-semibold text-3xl w-[500px]">Permissionless, compliant, and one-of-its-kind</h1>
       <p className="text-white font-light text-lg">
         GRDCToken provides investors with a simple, intelligent, and
