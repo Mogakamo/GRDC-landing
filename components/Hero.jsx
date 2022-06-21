@@ -14,8 +14,8 @@ const Hero = () => {
       showStatus={false}
       infiniteLoop
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 p-10 h-[90vh]">
-        <div className="flex flex-col items-start justify-center space-y-10">
+      <div className="flex p-10 h-[90vh] items-center space-x-20 px-20 mx-auto">
+        <div className="flex flex-col items-start w-[450px] space-y-10">
           <h1 className="text-[#0E7506] font-bold text-2xl">
             Fractional Investements
           </h1>
@@ -36,7 +36,10 @@ const Hero = () => {
           </button>
         </div>
         <div className="pt-10">
-          <div className="relative border-[#0E7506] bg-white rounded-3xl z-50 h-48 w-56">
+          <div className="relative h-20 w-20">
+            <Image src="/hero.svg" layout="fill" className="" />
+          </div>
+          <div className="relative border-[#0E7506] rounded-3xl h-48 w-72">
             <Image
               src="/hero-1.svg"
               layout="fill"

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="bg-[#0E7506] bg-opacity-10">
       <div
-        className="h-auto p-10 items-center flex flex-row space-x-16"
+        className="h-auto p-10 items-center justify-center flex flex-row space-x-16"
       >
         {/* About */}
         <div className="flex flex-col space-y-6 w-[250px]">
