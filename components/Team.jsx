@@ -10,7 +10,7 @@ const Team = () => {
         For some time now, it has been possible to find articles or tweets
         indicating that real estate has drop
       </p>
-      <div className="flex items-center">
+      <div className="grid place-items-center md:flex items-center">
         <div className="relative h-96 w-96 ">
           <Image src="/ceo.svg" layout="fill" objectFit="cover" />
         </div>
