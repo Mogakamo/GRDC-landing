@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <div className="bg-[#0E7506] bg-opacity-10">
       <div
-        className="h-auto p-10 items-center justify-center flex flex-row space-x-16"
+        className="h-auto p-10 mx-10 items-center justify-center flex flex-row space-x-16"
       >
         {/* About */}
-        <div className="flex flex-col space-y-6 w-[250px]">
+        <div className="flex flex-col space-y-6">
           <div className="h-12 w-12 relative">
             <Image src="/logo.png" layout="fill" objectFit="contain" />
           </div>
-          <p>
+          <p className="w-56 font-light">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla
           </p>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-4">
-          <h1 className="pb-4">Navigation</h1>
+          <h1 className="pb-4 font-bold">Navigation</h1>
           <ul className="space-y-2 ">
             <li className="opacity-60 hover:opacity-100 cursor-pointer">
               <Link href="/">Home</Link>
@@ -58,7 +58,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-auto">
-          <h1 className="pb-4 ">Connect</h1>
+          <h1 className="pb-4 font-bold">Connect</h1>
           <ul className="space-y-4">
             <li className="">
               <a href="" className="space-x-3 flex items-center flex-row">
@@ -75,16 +75,16 @@ const Footer = () => {
             <li>
               <a
                 href="mailto:mail@gmail.com"
-                className="space-x-3 flex items-center flex-row w-24"
+                className="space-x-3 flex items-center flex-row w-auto"
               >
-                <HiMail className="text-gray-400 " />
-                <p>realdevcompany</p>
+                <HiMail className="text-gray-400 h-4 w-4" />
+                <p>realdevcompany@co.ke</p>
               </a>
             </li>
           </ul>
         </div>
         <div className="space-y-4 w-72">
-          <h1>Subscribe</h1>
+          <h1 className="font-bold">Subscribe</h1>
           <p>
             Subscribe to our newsletter and get the latest updates as they
             happen.
