@@ -27,8 +27,8 @@ const Home: NextPage = () => {
         <div className="overflow-x-scroll scrollbar-hide">
           <Blog />
         </div>
-        <CallToAction />
         <Team />
+        <CallToAction />
       </main>
       <Footer />
     </div>

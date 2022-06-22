@@ -12,10 +12,10 @@ const CallToAction = () => {
             <Image src="/house.jpg" layout="fill" objectFit="cover" />
           </div>
         </div>
-        <div className="space-y-4 flex items-start justify-center flex-col">
-          <h1>Tokenizing real estate</h1>
-          <h2>The future of real estate investing is fractional</h2>
-          <p className="w-96">
+        <div className="space-y-6 flex items-start justify-center flex-col">
+          <h1 className="uppercase text-[#061b05] text-sm font-semibold">Tokenizing real estate</h1>
+          <h2 className="text-[#0E7506] text-4xl font-bold">The future of real estate investing is fractional</h2>
+          <p className="leading-loose font-light w-96">
             Fractional ownership democreatizes access to real estate
             investement, and therefore distributes and minimizes the risks and
             labour involved with owning property. And GRDC Token makes it even
@@ -28,9 +28,9 @@ const CallToAction = () => {
         </div>
       </div>
       <div className="mx-16 p-6 space-y-5 bg-[#]">
-        <h1>tokenizing real estate</h1>
-        <h2>The future of real estate investing is fractional</h2>
-        <p className="w-[660px]">
+        <h1 className="uppercase text-[#061b05] text-sm font-semibold">tokenizing real estate</h1>
+        <h2 className="text-[#0E7506] text-4xl font-bold">The future of real estate investing is fractional</h2>
+        <p className="leading-loose font-light w-[860px]">
           Tokenizing real estate has become the focus of many institutions in
           2022, and is likely to continue into the future as Solana offers a way
           to add improved levels of liquidity (tokens) to a notoriously illiquid
