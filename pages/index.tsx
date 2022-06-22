@@ -4,6 +4,7 @@ import {
   Blog,
   CallToAction,
   Content,
+  Features,
   Footer,
   Hero,
   NavBar,
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
         <Hero />
         <Services />
         <Content />
+        <Features />
         <div className="overflow-x-scroll scrollbar-hide">
           <Blog />
         </div>
