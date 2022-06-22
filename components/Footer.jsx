@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <div className="bg-[#0E7506] bg-opacity-10">
       <div
-        className="h-auto p-10 mx-10 items-center justify-center flex flex-row space-x-16"
+        className="h-auto p-10 mx-10 items-center justify-center md:flex md:flex-row md:space-x-16 space-y-10 md:space-y-0 grid place-items-center"
       >
         {/* About */}
-        <div className="flex flex-col space-y-6">
+        <div className="md:flex text-center flex-col space-y-6 grid place-items-center">
           <div className="h-12 w-12 relative">
             <Image src="/logo.png" layout="fill" objectFit="contain" />
           </div>
-          <p className="w-56 font-light">
+          <p className="md:w-56 font-light">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla
           </p>
@@ -40,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="pt-4">
+        <div className="pt-4 grid place-items-center">
           <h1 className="pb-4 font-bold">Navigation</h1>
           <ul className="space-y-2 ">
             <li className="opacity-60 hover:opacity-100 cursor-pointer">
@@ -57,9 +57,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="w-auto">
+        <div className="w-auto grid place-items-center text-center">
           <h1 className="pb-4 font-bold">Connect</h1>
-          <ul className="space-y-4">
+          <ul className="grid place-items-center space-y-4">
             <li className="">
               <a href="" className="space-x-3 flex items-center flex-row">
                 <HiPhoneOutgoing className="text-gray-400" />
@@ -83,7 +83,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="space-y-4 w-72">
+        <div className="space-y-4 w-72 grid place-items-center">
           <h1 className="font-bold">Subscribe</h1>
           <p>
             Subscribe to our newsletter and get the latest updates as they

@@ -13,7 +13,7 @@ const BlogCard = () => {
         has been possible to find articles or tweets indicating that real estate
         has dropped in the Rust Belt area, where RealT has...
       </p>
-      <div className="text-[#0E7506]">
+      <div className="text-[#0E7506] hover:underline underline-offset-1">
         <Link href="/" className=" items-start">
           Read More
         </Link>

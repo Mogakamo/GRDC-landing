@@ -10,16 +10,18 @@ const Hero = () => {
     <Carousel
       className="h-[90vh] bg-black "
       showArrows={false}
-      // showIndicators={false}
+      showIndicators={true}
       showStatus={false}
-      infiniteLoop
+      interval={3000}
+      autoPlay={true}
+      infiniteLoop={true}
     >
-      <div className="flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
-        <div className="flex flex-col items-start w-[450px] space-y-10">
+      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
+        <div className=" md:flex md:flex-col  grid place-items-center place-content-center md:items-start w-[450px] space-y-10">
           <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
-          <p className="text-white text-start font-light text-lg">
+          <p className="text-white text-start font-light text-lg w-[300px] md:w-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla Lorem ipsum
             dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
@@ -35,7 +37,7 @@ const Hero = () => {
             </div>
           </button>
         </div>
-        <div className="pt-10 flex flex-row-reverse">
+        <div className="pt-16 pr-20 pb-8  flex flex-row-reverse">
           <div className="relative">
             <div className="absolute -right-10 bottom-10">
               <div className="relative h-48 w-32">
@@ -53,12 +55,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
-        <div className="flex flex-col items-start w-[450px] space-y-10">
+      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
+        <div className="md:flex md:flex-col grid place-content-center place-items-center md:items-start items-center w-[450px] space-y-10">
           <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
-          <p className="text-white text-start font-light text-lg">
+          <p className="text-white text-start font-light text-lg w-[300px] md:w-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla Lorem ipsum
             dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
@@ -74,9 +76,9 @@ const Hero = () => {
             </div>
           </button>
         </div>
-        <div className="pt-10 flex flex-row-reverse">
+        <div className="pt-16 pr-20  flex flex-row-reverse">
           <div className="relative">
-            <div className="absolute -right-10 bottom-10">
+            <div className="absolute -right-10 md:bottom-10 bottom-8">
               <div className="relative h-48 w-32">
                 <Image src="/hero.svg" layout="fill" className="" />
               </div>
@@ -92,12 +94,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
-        <div className="flex flex-col items-start w-[450px] space-y-10">
+      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-autoo">
+        <div className="md:flex md:flex-col grid place-items-center place-content-center md:items-start items-center w-[450px] space-y-10">
           <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
-          <p className="text-white text-start font-light text-lg">
+          <p className="text-white text-start font-light text-l w-[300px] md:w-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla Lorem ipsum
             dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
@@ -113,7 +115,7 @@ const Hero = () => {
             </div>
           </button>
         </div>
-        <div className="pt-10 flex flex-row-reverse">
+        <div className="pt-16 pr-20 flex flex-row-reverse">
           <div className="relative">
             <div className="absolute -right-10 bottom-10">
               <div className="relative h-48 w-32">
