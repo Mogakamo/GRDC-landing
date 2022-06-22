@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import {
   Blog,
+  CallToAction,
   Content,
   Footer,
   Hero,
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
         <div className="overflow-x-scroll scrollbar-hide">
           <Blog />
         </div>
+        <CallToAction />
         <Team />
       </main>
       <Footer />
