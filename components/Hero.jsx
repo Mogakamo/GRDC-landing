@@ -8,7 +8,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <Carousel
-      className="h-[90vh] bg-black "
+      className="md:h-[90vh] h-auto bg-black "
       showArrows={false}
       showIndicators={true}
       showStatus={false}
@@ -16,8 +16,8 @@ const Hero = () => {
       autoPlay={true}
       infiniteLoop={true}
     >
-      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
-        <div className=" md:flex md:flex-col  grid place-items-center place-content-center md:items-start w-[450px] space-y-10">
+      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 md:h-[90vh] h-auto items-center justify-center space-x-20 px-20 mx-auto">
+        <div className=" md:flex md:flex-col  grid place-items-center place-content-center md:items-start w-[450px] space-y-4">
           <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
@@ -55,8 +55,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-auto">
-        <div className="md:flex md:flex-col grid place-content-center place-items-center md:items-start items-center w-[450px] space-y-10">
+      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 md:h-[90vh] h-auto items-center justify-center space-x-20 px-20 mx-auto">
+        <div className="md:flex md:flex-col grid place-content-center place-items-center md:items-start items-center w-[450px] space-y-4">
           <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
@@ -94,8 +94,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 h-[90vh] items-center justify-center space-x-20 px-20 mx-autoo">
-        <div className="md:flex md:flex-col grid place-items-center place-content-center md:items-start items-center w-[450px] space-y-10">
+      <div className="grid grid-cols-1 place-content-center place-items-center md:flex p-10 md:h-[90vh] h-auto items-center justify-center space-x-20 px-20 mx-autoo">
+        <div className="md:flex md:flex-col grid place-items-center place-content-center md:items-start items-center w-[450px] space-y-4">
           <h1 className="text-[#0E7506] font-semibold text-2xl">
             Fractional Investements
           </h1>
