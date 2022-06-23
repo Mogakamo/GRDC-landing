@@ -11,7 +11,7 @@ const Team = () => {
         indicating that real estate has drop
       </p>
       <div className="grid place-items-center md:flex items-center">
-        <div className="relative h-96 w-96 ">
+        <div className="relative h-72 w-48 ">
           <Image src="/ceo.svg" layout="fill" objectFit="cover" />
         </div>
         <div className="relative h-72 w-48  hover:-translate-y-6 duration-300 hover:scale-150 ease-out overflow-auto">
