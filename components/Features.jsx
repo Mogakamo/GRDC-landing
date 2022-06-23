@@ -17,7 +17,7 @@ const Features = () => {
               Unique Tokens
             </h1>
           </div>
-          <p className="leading-loose font-light">
+          <p className="leading-loose font-light w-auto">
             Ownership of each property is distributed across a finite number of
             representative tokens. Based on token share, owners can collect
             revenue from rent, and vote on property decisions.
@@ -30,7 +30,7 @@ const Features = () => {
               Property Managed
             </h1>
           </div>
-          <p className="leading-loose font-light w-96">
+          <p className="leading-loose font-light w-auto">
             Each GRDC property has a property management company managing the
             property on RealToken owners behalf. The property management company
             sources tenants, collects rent, and manages repairs, so the diverse
@@ -42,7 +42,7 @@ const Features = () => {
             <BsShieldFillCheck className="h-8 w-8 text-[#0E7506]" />
             <h1 className="text-[#061b05] text-xl font-semibold">LLC Owned</h1>
           </div>
-          <p className="leading-loose font-light">
+          <p className="leading-loose font-light w-auto">
             Real estate can't directly be tokenised, but legal entities can.
             Each property is owned by company(either an Inc or an LLC). Each
             company is tokenised as a unique set of GRDC and made available for
@@ -56,7 +56,7 @@ const Features = () => {
               Instant Payments
             </h1>
           </div>
-          <p className="leading-loose font-light text-cente w-96">
+          <p className="leading-loose font-light text-cente w-auto">
             With blockchains, we no longer ned to wait 30 days to receive a bank
             transfer. Owning property with GRDC allows you to get and monitor
             your investments in real-time. Dividends are paid using a US-Dollar
