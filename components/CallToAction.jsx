@@ -7,12 +7,12 @@ const CallToAction = () => {
   return (
     <div className="w-full pt-10">
       <div className="h-auto md:grid md:grid-cols-2 bg-[#0E7506] bg-opacity-10 py-10 pb-10">
-        <div className="flex ml-32 justify-center">
+        <div className="flex md:ml-32 justify-center">
           <div className="relative h-[300px] w-[300px]">
             <Image src="/house.jpg" layout="fill" objectFit="contain" />
           </div>
         </div>
-        <div className="space-y-6 flex items-start justify-center flex-col">
+        <div className="space-y-6 flex md:items-start items-center px-6 justify-center flex-col">
           <h1 className="uppercase text-[#061b05] text-sm font-semibold">Tokenizing real estate</h1>
           <h2 className="text-[#0E7506] text-4xl font-bold">The future of real estate investing is fractional</h2>
           <p className="leading-loose font-light w-96">
@@ -27,7 +27,7 @@ const CallToAction = () => {
           </button>
         </div>
       </div>
-      <div className="mx-16 p-6 space-y-5 bg-[#]">
+      <div className="md:mx-16 p-6 space-y-5 bg-[#]">
         <h1 className="uppercase text-[#061b05] text-sm font-semibold">tokenizing real estate</h1>
         <h2 className="text-[#0E7506] text-4xl font-bold">The future of real estate investing is fractional</h2>
         <p className="leading-loose font-light md:w-[860px] w-auto">
