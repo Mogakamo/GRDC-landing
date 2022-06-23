@@ -30,7 +30,7 @@ const CallToAction = () => {
       <div className="mx-16 p-6 space-y-5 bg-[#]">
         <h1 className="uppercase text-[#061b05] text-sm font-semibold">tokenizing real estate</h1>
         <h2 className="text-[#0E7506] text-4xl font-bold">The future of real estate investing is fractional</h2>
-        <p className="leading-loose font-light w-[860px]">
+        <p className="leading-loose font-light md:w-[860px] w-auto">
           Tokenizing real estate has become the focus of many institutions in
           2022, and is likely to continue into the future as Solana offers a way
           to add improved levels of liquidity (tokens) to a notoriously illiquid
