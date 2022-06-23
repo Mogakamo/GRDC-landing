@@ -8,8 +8,8 @@ const CallToAction = () => {
     <div className="w-full pt-10">
       <div className="h-auto md:grid md:grid-cols-2 bg-[#0E7506] bg-opacity-10 py-10 pb-10">
         <div className="flex ml-32 justify-center">
-          <div className="relative h-72 w-48">
-            <Image src="/house.jpg" layout="fill" objectFit="cover" />
+          <div className="relative h-[300px] w-[300px]">
+            <Image src="/house.jpg" layout="fill" objectFit="contain" />
           </div>
         </div>
         <div className="space-y-6 flex items-start justify-center flex-col">
