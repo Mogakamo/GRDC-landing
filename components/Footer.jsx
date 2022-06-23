@@ -83,7 +83,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="space-y-4 w-72 grid place-items-center">
+        <div className="space-y-4 md:w-72 grid place-items-start">
           <h1 className="font-bold">Subscribe</h1>
           <p>
             Subscribe to our newsletter and get the latest updates as they
