@@ -7,8 +7,8 @@ import { BsShieldFillCheck } from "react-icons/bs";
 
 const Features = () => {
   return (
-    <div className="h-auto mx-32 p-20">
-      <div className="grid gap-12 grid-cols-2">
+    <div className="h-auto md:mx-32 md:p-20 px-4 py-4" >
+      <div className="grid gap-12 md:grid-cols-2">
         {" "}
         <div className="flex flex-col">
           <div className="flex items-center justify-start space-x-3">
@@ -42,7 +42,7 @@ const Features = () => {
             <BsShieldFillCheck className="h-8 w-8 text-[#0E7506]" />
             <h1 className="text-[#061b05] text-xl font-semibold">LLC Owned</h1>
           </div>
-          <p className="leading-loose font-light text-center">
+          <p className="leading-loose font-light">
             Real estate can't directly be tokenised, but legal entities can.
             Each property is owned by company(either an Inc or an LLC). Each
             company is tokenised as a unique set of GRDC and made available for
